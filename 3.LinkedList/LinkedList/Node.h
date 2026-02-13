@@ -10,7 +10,7 @@ class Node
 	friend class LinkedList;
 
 	// 노드의 생성은 LinkedList에서만 가능하도록 private으로 지정.
-public:
+private:
 	Node()
 		: data(), next(nullptr)
 	{
