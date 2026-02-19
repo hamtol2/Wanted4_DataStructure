@@ -2,6 +2,7 @@
 #include "Location2D.h"
 #include <iostream>		// std::cout.
 #include <Windows.h>	// 콘솔 제어를 위해 활용.
+#include <stack>
 
 // 맵 (미로).
 // 작은 맵.
