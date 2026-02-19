@@ -21,38 +21,14 @@ public:
 
 	~LinkedList()
 	{
-		//// 힙 메모리 오류 확인 함수.
-		//if (_heapchk() != _HEAPOK)
-		//{
-		//	__debugbreak();
-		//}
-
 		// 메모리 정리.
 		Clear();
-
-		//// 힙 메모리 오류 확인 함수.
-		//if (_heapchk() != _HEAPOK)
-		//{
-		//	__debugbreak();
-		//}
 
 		delete first;
 		first = nullptr;
 
-		//// 힙 메모리 오류 확인 함수.
-		//if (_heapchk() != _HEAPOK)
-		//{
-		//	__debugbreak();
-		//}
-
 		delete last;
 		last = nullptr;
-
-		//// 힙 메모리 오류 확인 함수.
-		//if (_heapchk() != _HEAPOK)
-		//{
-		//	__debugbreak();
-		//}
 	}
 
 	// 정리 함수.
