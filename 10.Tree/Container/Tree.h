@@ -121,7 +121,7 @@ private:
 		if (result)
 		{
 			// 부모 노드의 자손 목록에서 현재 노드 제거.
-			Node<T>* parent = outNode->GetPrarent();
+			Node<T>* parent = outNode->GetParent();
 			if (parent)
 			{
 				// 삭제할 노드를 부모 노드 목록에서 검색.
@@ -197,7 +197,7 @@ private:
 		}
 
 		// 부모 목록 정리.
-		Node<T>* parent = node->GetPrarent();
+		Node<T>* parent = node->GetParent();
 		if (parent)
 		{
 			auto it = std::find(
