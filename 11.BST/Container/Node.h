@@ -12,7 +12,7 @@ class Node
 
 public:
 	Node(const T& data,
-		const Node<T>* const parent = nullptr)
+		Node<T>* const parent = nullptr)
 		: data(data), parent(parent)
 	{
 	}
