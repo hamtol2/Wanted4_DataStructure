@@ -23,6 +23,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "9.HashTable", "9.HashTable\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10.Tree", "10.Tree\10.Tree.vcxproj", "{AA8227F7-7791-42E5-9339-796AD6F70298}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "11.BST", "11.BST\11.BST.vcxproj", "{D57E9EA9-8B83-4B7A-9F73-1693FEC6A29D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -69,6 +71,10 @@ Global
 		{AA8227F7-7791-42E5-9339-796AD6F70298}.Debug|x64.Build.0 = Debug|x64
 		{AA8227F7-7791-42E5-9339-796AD6F70298}.Release|x64.ActiveCfg = Release|x64
 		{AA8227F7-7791-42E5-9339-796AD6F70298}.Release|x64.Build.0 = Release|x64
+		{D57E9EA9-8B83-4B7A-9F73-1693FEC6A29D}.Debug|x64.ActiveCfg = Debug|x64
+		{D57E9EA9-8B83-4B7A-9F73-1693FEC6A29D}.Debug|x64.Build.0 = Debug|x64
+		{D57E9EA9-8B83-4B7A-9F73-1693FEC6A29D}.Release|x64.ActiveCfg = Release|x64
+		{D57E9EA9-8B83-4B7A-9F73-1693FEC6A29D}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
